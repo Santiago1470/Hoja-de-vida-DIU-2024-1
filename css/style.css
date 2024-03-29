@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    margin: 0px;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.info {
+    width: 40%;
+    background-color: #0F1419;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.descripcion {
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.contenedor-foto img{
+    border-radius: 50%;
+}
+
+.contacto-titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+
+.contacto-titulo h2 {
+    font-weight: bold;
+}
+
+.contacto-titulo hr {
+    flex-grow: 0.4;
+    margin: auto 0px;
+}
+
+.contacto-texto {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    gap: 20px;
+}
+
+.contacto-texto div {
+    display: flex;
+    gap: 10px;
+}
+
+.contacto-texto div a, .contacto-texto div p {
+    margin: auto 0px;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.contacto-texto div img {
+    height: 32px;
+    width: 32px;
+    margin: auto 0px;
+}
+
+.descripcion {
+    padding-left: 50px;
+}
+
+.contenedor-nombre {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.contenedor-nombre h1 {
+    margin: 30px 0px 0px 0px;
+}
+
+.contenedor-nombre h2 {
+    margin: 0px;
+}
+
+.descripcion-division hr {
+    width: 100%;
+    border: 1.5px solid black;
+    margin: 20px 0px;
+}
+
+.descripcion-texto div h3 {
+    margin: 20px 0px 10px 0px;
+}
+
+.descripcion-texto p {
+    margin: 0px;
+    font-size: 1rem;
+}
+
+.espaciado-p p {
+    padding-left: 67px;
+}
+
+.descripcion-texto h3 {
+    margin: 20px 0px 10px 0px;
+}
+
+.contenedor-habilidades {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
