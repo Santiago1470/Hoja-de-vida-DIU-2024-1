@@ -15,7 +15,7 @@ body {
 
 .descripcion {
     width: 60%;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .contenedor-foto img{
@@ -105,4 +105,10 @@ body {
 .contenedor-habilidades {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.contenedor-firma {
+    text-align: center;
+    margin-top: 30px;
+    padding-right: 50px;
 }
